@@ -1,0 +1,51 @@
+/* ==============   AREA NAVIGATION BAR   ================== */
+
+
+.container__nav {
+    width: 2024px;
+    padding-top: 65px;
+    padding-right: 290px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+}
+
+/* ==============   SETTINGS NAVIGATION BAR   ================== */
+
+:root {
+    --color-bg: #000;
+    --color-primary: #fff;
+    --color-white: #fff;
+
+    --transition: all 400ms ease;
+}
+
+b {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+b:hover {
+    color: var(--color-white);
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 23px 78px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: var(--color-white);
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
