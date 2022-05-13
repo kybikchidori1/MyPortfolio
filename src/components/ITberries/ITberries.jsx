@@ -15,7 +15,7 @@ const ITberries = () => {
         enim gravida facilisis. Pellentesque laoreet varius turpis vel pharetra.
         Ut ante justo, consequat vitae elementum tempor, accumsan nec eros.
       </div>
-      <div className="btn__position">
+      <div className="btn__position_readmore">
         <div href="#readmore" className="btn__readmore">
           read more
         </div>
