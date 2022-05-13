@@ -1,0 +1,61 @@
+.container__itberries {
+    display: inline-block;
+    position: relative;
+}
+
+.tittle__itberries {
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 54px 102px;
+
+    color: aliceblue;
+
+}
+
+.subtext__itberries {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 116px 102px;
+
+    width: 1148px;
+    color: aliceblue;
+}
+
+.btn__position {
+    position: absolute;
+    padding: 238px 102px 0px 102px;
+}
+
+.btn__readmore {
+    outline: none;
+    white-space: nowrap;
+    position: absolute;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+
+
+    display: inline-block;
+    color: var(--color-primary);
+    padding: 18px 42px;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+.btn__readmore:hover {
+    background-image:
+        radial-gradient(10px 100% at 0% 50%, rgb(255, 255, 255), transparent),
+        radial-gradient(10px 100% at 100% 50%, rgb(255, 255, 255), transparent);
+    transition: var(--transition)
+}
+
+
+.background {
+    display: block;
+    width: 2024px;
+    height: auto;
+}
