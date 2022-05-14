@@ -12,7 +12,7 @@
 
 .border__title {
     position: absolute;
-    padding: 142px 823px 0px 823px;
+    padding: 142px 1012px 0px 827px;
 }
 
 .title__aboutme {
@@ -41,7 +41,7 @@
 
 .btn__position_explore {
     position: absolute;
-    padding: 434px 890px 0px;
+    padding: 434px 1012px 0px 942px;
 }
 
 .btn__explore {
@@ -67,43 +67,72 @@
     transition: var(--transition)
 }
 
-.separator__img {
+.separator__img1 {
     position: absolute;
-    padding: 551px 875px 0px 875px;
+    padding: 551px 927px 0px 927px;
 }
 
-/* 
-.container__abilities {
-    position: absolute;
-    text-align: center;
-} */
 
 .abilities__design_title {
     position: absolute;
-    text-align: center;
+    padding: 671px 1239px 0px 404px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #050505;
 }
 
 .abilities__design_subtitle {
     position: absolute;
-    text-align: center;
+    padding: 744px 1200px 0px 404px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
 }
 
 .abilities__development_title {
     position: absolute;
-    text-align: center;
+    padding: 671px 637px 0px 1209px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #050505;
 }
 
 .abilities__development_subtitle {
     position: absolute;
-    text-align: center;
+    padding: 744px 450px 0px 1209px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+
 }
 
 .abilities__maintenance_title {
     position: absolute;
-    text-align: center;
+    padding: 866px 914px 0px 729px;
+
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: bolder;
+    color: #050505;
 }
 
 .abilities__maintenance_subtitle {
     position: absolute;
-    text-align: center;
+    padding: 940px 914px 0px 729px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.separator__img2 {
+    position: absolute;
+    padding: 1124px 927px 0px 927px;
 }

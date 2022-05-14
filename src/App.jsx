@@ -13,7 +13,6 @@ const App = () => {
       <Hero />
       <ITberries />
       <About />
-      <Skills />
       <Portfolio />
       <Contact />
       <Footer />

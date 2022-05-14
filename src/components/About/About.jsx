@@ -19,7 +19,7 @@ const About = () => {
           explore
         </div>
       </div>
-      <img src={separator} className="separator__img" alt="" />
+      <img src={separator} className="separator__img1" alt="" />
       <div className="container__abilities">
         <div className="abilities__design_title">design</div>
         <div className="abilities__design_subtitle">
@@ -37,7 +37,7 @@ const About = () => {
           design the site from scratch and consult you during the job.
         </div>
       </div>
-      <img src={separator} className="separator__img" alt="" />
+      <img src={separator} className="separator__img2" alt="" />
       <Skills />
       <div className="background__about" alt="" />
     </div>
