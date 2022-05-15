@@ -7,7 +7,7 @@ import vk from "../../assets/img/Contacts/vk.svg";
 
 const Contact = () => {
   return (
-    <div className="footer">
+    <footer>
       <div className="contacts-block activation">
         <div className="contacts__text">
           <div className="contacts__title"> Contacts </div>
@@ -28,15 +28,15 @@ const Contact = () => {
           </a>
         </div>
         <div className="contacts__link-cv">
-          <a href="./src" download="Resume">
+          <v href="./src" download="Resume">
             Download CV
-          </a>
+          </v>
         </div>
         <div className="contacts__bottom">
           <p>"Like me on" "LinkedIn, telegram, instagram, Vkontakte"</p>
         </div>
       </div>
-    </div>
+    </footer>
   );
 };
 export default Contact;

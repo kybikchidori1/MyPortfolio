@@ -7,9 +7,11 @@ import rec from "../../assets/img/Hero/rectangle/rectangle.png";
 
 const Hero = () => {
   return (
-    <header>
-      <div className="container__hero">
+    <div className="home container">
+      <header className="header">
         <Navbar />
+      </header>
+      <div className="container__hero">
         <h5 className="hello">Hi, i am</h5>
         <h1 className="name">Roman Yukhlin</h1>
         <h5 className="sub_name">Front-end Developer</h5>
@@ -18,7 +20,7 @@ const Hero = () => {
           <img src={rec} alt="rec" />
         </div>
       </div>
-    </header>
+    </div>
   );
 };
 

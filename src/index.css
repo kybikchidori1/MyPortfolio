@@ -1,3 +1,17 @@
+body {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: normal;
+}
+
+.wrapper {
+    display: flex;
+    min-height: 100%;
+    overflow: hidden;
+    flex-direction: column;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -23,13 +37,9 @@ html {
 }
 
 
-.container {
-    width: var(--container-width-lg);
-    margin: 0 auto;
-}
 
 /* ================= MEDIA QUERIES (MEDIUM DEVICES) ================ */
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
     .container {
         width: var(--container-width-md);
     }
@@ -37,10 +47,10 @@ html {
     section {
         margin-top: 6rem;
     }
-}
+} */
 
 /* ================= MEDIA QUERIES (SMALL DEVICES) ================ */
-
+/* 
 @media screen and (max-width: 600px) {
     .container {
         width: var(--container-width-sm);
@@ -49,4 +59,4 @@ html {
     section>h2 {
         margin-top: 2rem;
     }
-}
+} */
