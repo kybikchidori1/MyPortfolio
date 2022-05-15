@@ -20,8 +20,8 @@ const ITberries = () => {
           read more
         </div>
       </div>
-
       <img src={background} className="background" alt="" />
+      <img src={background} className="background1" alt="" />
     </div>
   );
 };
