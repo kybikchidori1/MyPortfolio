@@ -4,7 +4,6 @@ import ITberries from "./components/ITberries/ITberries";
 import About from "./components/About/About";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 
 const App = () => {
   return (
@@ -14,7 +13,6 @@ const App = () => {
       <About />
       <Portfolio />
       <Contact />
-      <Footer />
     </>
   );
 };
