@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import Skills from "../Skills/Skills";
 import separator from "../../assets/img/About/separator.png";
+import Skills from "../Skills/Skills.jsx";
 
 const About = () => {
   return (
