@@ -1,5 +1,5 @@
 .about__content {
-    /* background: #d7d7d7; */
+    height: 506px;
 }
 
 .activation {
@@ -12,4 +12,23 @@
     width: 550px;
     text-align: center;
     margin: 0 auto;
+}
+
+.about__content-text h2 {
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 34px;
+    line-height: 42px;
+    color: #070707;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }

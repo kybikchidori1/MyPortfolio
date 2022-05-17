@@ -1,0 +1,22 @@
+.hero__who-i-am {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 39px 0;
+}
+
+.hero__name h1 {
+    font-family: "Open Sans"sans-serif;
+    font-size: 80px;
+    line-height: 94px;
+    color: black;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
