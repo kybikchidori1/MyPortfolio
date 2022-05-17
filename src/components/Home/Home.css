@@ -1,0 +1,40 @@
+@media (max-width: 800px) {
+  .hero {
+    background-attachment: scroll;
+  }
+
+}
+
+.hero {
+  width: 100vw;
+  max-width: 100%;
+  height: calc(var(9.48px, 1vh)*100);
+  background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(19, 19, 19, .7) 75%, rgba(33, 33, 33, .7)), url(./img/photo1.jpg);
+  background-position: 50%;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+.hero__who-i-am {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 39px 0;
+}
+
+.hero__name h1 {
+  font-family: "Open Sans"sans-serif;
+  font-size: 80px;
+  line-height: 94px;
+  color: black;
+}
+
+h1 {
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}

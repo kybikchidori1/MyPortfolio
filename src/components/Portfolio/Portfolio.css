@@ -12,11 +12,12 @@
     transition-delay: 0s;
 }
 
+/* 
 .container {
     max-width: 1005px;
     margin: 0 auto;
     padding: 0 30px;
-}
+} */
 
 .portfolio__block:first-child {
     margin-top: 50px;

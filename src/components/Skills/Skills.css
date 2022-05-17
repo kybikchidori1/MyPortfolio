@@ -3,20 +3,20 @@
     transition: 2s linear;
 }
 
-@media (max-width: 1445px) {
+/* @media (max-width: 1445px) {
     .container {
         max-width: 1005px;
         margin: 0 auto;
         padding: 0 30px;
     }
-}
+} */
 
-.container {
+/* .container {
     max-width: 1445px;
     margin: 0 auto;
     padding: 0 250px;
     background-color: #d7d7d7;
-}
+} */
 
 .skills__heading {
     text-align: center;
