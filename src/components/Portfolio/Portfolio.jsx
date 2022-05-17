@@ -8,7 +8,7 @@ import mars from "../../assets/img/Portfolio/mars.png";
 const Portfolio = () => {
   return (
     <div className="portfolio">
-      <div className="portfolio__container activaiton">
+      <div className="portfolio__container bg activaiton">
         <div className="portfolio__heading">
           <div className="portfolio__title">portfolio</div>
         </div>

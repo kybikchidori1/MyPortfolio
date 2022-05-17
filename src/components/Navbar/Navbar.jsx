@@ -3,20 +3,30 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="container__nav">
-      <b href="#aboutme" className="btn">
-        About Me
-      </b>
-      <b href="#skills" className="btn">
-        Skills
-      </b>
-      <b href="#portfolio" className="btn">
-        Portfolio
-      </b>
-      <b href="#contact" className="btn">
-        Contact me
-      </b>
-    </div>
+    <nav className="header__menu">
+      <ul className="header-bottom-menu">
+        <li className="header-body-menu_links">
+          <a href data-link className="header-bottom-menu__link">
+            About me
+          </a>
+        </li>
+        <li className="header-body-menu_links">
+          <a href data-link className="header-bottom-menu__link">
+            Skills
+          </a>
+        </li>
+        <li className="header-body-menu_links">
+          <a href data-link className="header-bottom-menu__link">
+            Portfolio
+          </a>
+        </li>
+        <li className="header-body-menu_links">
+          <a href data-link className="header-bottom-menu__link">
+            Contacts
+          </a>
+        </li>
+      </ul>
+    </nav>
   );
 };
 

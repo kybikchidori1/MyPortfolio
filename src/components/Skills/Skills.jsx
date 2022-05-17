@@ -9,7 +9,6 @@ import github from "../../assets/img/Skills/GitHub.png";
 import html from "../../assets/img/Skills/HTML.png";
 import javascript from "../../assets/img/Skills/JavaScript.png";
 import redux from "../../assets/img/Skills/Redux.png";
-import sass from "../../assets/img/Skills/Sass.png";
 import vscode from "../../assets/img/Skills/vscode.png";
 
 const Skills = () => {
@@ -98,15 +97,6 @@ const Skills = () => {
           </div>
           <div className="skills__name">
             <div className="skills__png">javascript</div>
-          </div>
-        </div>
-
-        <div className="skills__box">
-          <div className="skills__logo">
-            <img src={sass} className="skills__png" alt="" />
-          </div>
-          <div className="skills__name">
-            <div className="skills__png">sass</div>
           </div>
         </div>
 
