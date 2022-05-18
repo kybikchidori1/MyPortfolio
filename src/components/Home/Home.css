@@ -5,36 +5,103 @@
 
 }
 
+@media(max-width:1600px) {
+  .hero__header {
+    width: 90%;
+  }
+}
+
+
+@media(max-width:1600px) {
+  .hero__submain {
+    font-size: 30px;
+  }
+}
+
+@media(max-width:1600px) {
+  .hero__separator {
+    margin-top: 15px;
+    width: 180px;
+    height: auto;
+  }
+}
+
+@media(max-width:1600px) {
+  .hero__social-media {
+    margin-top: 30px auto;
+    display: flex;
+    width: 220px;
+    justify-content: space-between;
+  }
+}
+
+@media(max-width:1600px) {
+  .hero__social-media-unit {
+    width: 40px;
+  }
+}
+
 .hero {
   width: 100vw;
   max-width: 100%;
-  height: calc(var(9.48px, 1vh)*100);
+  height: 100vh;
   background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(19, 19, 19, .7) 75%, rgba(33, 33, 33, .7)), url(./img/photo1.jpg);
   background-position: 50%;
   background-size: cover;
   overflow: hidden;
 }
 
-
-.hero__who-i-am {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  margin: 39px 0;
+.hero__header {
+  margin: 40vh auto;
+  width: 70%;
+  color: #fff;
+  text-align: center;
 }
 
-.hero__name h1 {
-  font-family: "Open Sans"sans-serif;
+.hero__main {
+  font-family: "Montserrat", sans-serif;
   font-size: 80px;
-  line-height: 94px;
-  color: black;
+  white-space: nowrap;
+  font-weight: 600;
 }
 
-h1 {
-  display: block;
-  margin-block-start: 0.67em;
-  margin-block-end: 0.67em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
+.hero__submain {
+  font-family: "Open Sans", sans-serif;
+  font-size: 35px;
+  margin: 40px 0;
+}
+
+.hero__separator {
+  margin-top: 20px;
+  height: auto;
+}
+
+.hero__social-media {
+  margin: 40px auto;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.hero__social-media-unit {
+  width: 40px;
+  transition: all .3s ease 0s;
+}
+
+.hero__social-media-unit-tg {
+  width: 40px;
+  transition: all .3s ease 0s;
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.hero__social-media-unit:hover {
+  background-color: #d7d7d7;
+  transition: 0s;
+  border-radius: 50px;
+}
+
+.hero__social-media-unit-tg:hover {
+  background-color: #d7d7d7;
+  transition: 0s;
 }
