@@ -8,7 +8,7 @@ import vk from "../../assets/img/Contacts/vk.svg";
 const Contact = () => {
   return (
     <footer>
-      <div className="contacts-block activation">
+      <div className="contacts-block activation" id="contact">
         <div className="contacts__text">
           <div className="contacts__title"> Contacts </div>
           <p>"Want to know more or just chat?" "You are welcome!"</p>

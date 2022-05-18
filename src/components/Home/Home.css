@@ -68,16 +68,16 @@
 .hero__submain {
   font-family: "Open Sans", sans-serif;
   font-size: 35px;
-  margin: 40px 0;
+  margin: 60px 0;
 }
 
 .hero__separator {
-  margin-top: 20px;
+  margin-top: 10px;
   height: auto;
 }
 
 .hero__social-media {
-  margin: 40px auto;
+  margin: 50px auto;
   display: flex;
   width: 300px;
   justify-content: space-between;

@@ -13,7 +13,7 @@ import vscode from "../../assets/img/Skills/vscode.png";
 
 const Skills = () => {
   return (
-    <div className="skills container activation">
+    <div className="skills container activation" id="skills">
       <div className="skills__heading">
         <h2>Skills</h2>
         <p>I have exerience with</p>

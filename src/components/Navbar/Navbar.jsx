@@ -12,22 +12,22 @@ const Navbar = () => {
         </a>
         <ul className="header-bottom-menu">
           <li className="header-body-menu_links">
-            <a href data-link className="header-bottom-menu__link">
+            <a href="#about" data-link className="header-bottom-menu__link">
               About me
             </a>
           </li>
           <li className="header-body-menu_links">
-            <a href data-link className="header-bottom-menu__link">
+            <a href="#skills" data-link className="header-bottom-menu__link">
               Skills
             </a>
           </li>
           <li className="header-body-menu_links">
-            <a href data-link className="header-bottom-menu__link">
+            <a href="#portfolio" data-link className="header-bottom-menu__link">
               Portfolio
             </a>
           </li>
           <li className="header-body-menu_links">
-            <a href data-link className="header-bottom-menu__button">
+            <a href="#contact" data-link className="header-bottom-menu__button">
               Contact
             </a>
           </li>

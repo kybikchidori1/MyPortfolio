@@ -56,6 +56,7 @@ header {
     width: 100%;
     background-color: black;
 
+    height: 73px;
     align-items: center;
     position: fixed;
     z-index: 3;
