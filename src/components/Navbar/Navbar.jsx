@@ -28,7 +28,7 @@ const Navbar = () => {
           </li>
           <li className="header-body-menu_links">
             <a href="#contact" data-link className="header-bottom-menu__button">
-              Contact
+              CONTACT ME
             </a>
           </li>
         </ul>
