@@ -8,45 +8,86 @@ import mars from "../../assets/img/Portfolio/mars.png";
 const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
-      <div className="portfolio__container bg activaiton">
-        <div className="portfolio__heading">
-          <div className="portfolio__title">portfolio</div>
+      <div className="portfolio__header">
+        <h1 className="sc-title gracia">PORTFOLIO</h1>
+      </div>
+      <div className="filter">
+        <ul>
+          <li className="active">Coded</li>
+        </ul>
+      </div>
+      <div className="projects">
+        <div className="project">
+          <img className="project__image" src={tournogami} alt="tournogami" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">TourNogami Site</h1>
+            <p className="project__description">Landing page TourNogami site</p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/TourNogamiSite"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
+            </div>
+          </div>
         </div>
-        <div className="portfolio__content container">
-          <div className="portfolio__block">
-            <div className="portfolio__img">
-              <img src={tournogami} alt="rec" />
-            </div>
-            <div className="portfolio__link">
-              <a href="">TourNogami - Homepage</a>
-            </div>
-          </div>
-          <div className="portfolio__block">
-            <div className="portfolio__img">
-              <img src={piedpiper} alt="rec" />
-            </div>
-            <div className="portfolio__link">
-              <a href="">PiedPiper - Homepage</a>
-            </div>
-          </div>
-          <div className="portfolio__block">
-            <div className="portfolio__img">
-              <img src={menu} alt="rec" />
-            </div>
-            <div className="portfolio__link">
-              <a href="">FoodDelivery - Homepage</a>
+
+        <div className="project">
+          <img className="project__image" src={piedpiper} alt="piedpiper" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">PiedPiper Site</h1>
+            <p className="project__description">Landing page PiedPiper site</p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/PiedPiperSite"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
             </div>
           </div>
-          <div className="portfolio__block">
-            <div className="portfolio__img">
-              <img src={mars} alt="rec" />
+        </div>
+
+        <div className="project">
+          <img className="project__image" src={menu} alt="fitnes" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">Fitnes</h1>
+            <p className="project__description">
+              demo JS app that allows you to count your calories
+            </p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/NewbieJavaScript"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
             </div>
-            <div className="portfolio__link">
-              <a href="">Movies - Homepage</a>
+          </div>
+        </div>
+
+        <div className="project">
+          <img className="project__image" src={mars} alt="movie" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">KuboFilm Site</h1>
+            <p className="project__description">Demo search Movie site</p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/NewbieJavaScript"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
             </div>
           </div>
         </div>
       </div>
+      <span className="portfolio__footer">And many more to come!</span>
     </div>
   );
 };
