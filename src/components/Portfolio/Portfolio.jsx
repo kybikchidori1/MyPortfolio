@@ -78,7 +78,7 @@ const Portfolio = () => {
             <p className="project__description">Demo search Movie site</p>
             <div className="project__buttons">
               <form
-                action="https://github.com/kybikchidori1/NewbieJavaScript"
+                action="https://github.com/kybikchidori1/KuboFilm1"
                 target="_blank"
               >
                 <button className="sc-button salut">GITHUB</button>
