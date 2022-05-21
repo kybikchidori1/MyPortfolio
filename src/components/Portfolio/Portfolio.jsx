@@ -30,6 +30,12 @@ const Portfolio = () => {
               >
                 <button className="sc-button salut">GITHUB</button>
               </form>
+              <form
+                action="https://kybikchidori1.github.io/TourNogamiSite/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
+              </form>
             </div>
           </div>
         </div>
@@ -46,6 +52,12 @@ const Portfolio = () => {
                 target="_blank"
               >
                 <button className="sc-button salut">GITHUB</button>
+              </form>
+              <form
+                action="https://kybikchidori1.github.io/PiedPiperSite/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
               </form>
             </div>
           </div>
@@ -66,6 +78,12 @@ const Portfolio = () => {
               >
                 <button className="sc-button salut">GITHUB</button>
               </form>
+              <form
+                action="https://kybikchidori1.github.io/NewbieJavaScript/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
+              </form>
             </div>
           </div>
         </div>
@@ -82,6 +100,12 @@ const Portfolio = () => {
                 target="_blank"
               >
                 <button className="sc-button salut">GITHUB</button>
+              </form>
+              <form
+                action="https://kybikchidori1.github.io/KuboFilm1/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
               </form>
             </div>
           </div>
