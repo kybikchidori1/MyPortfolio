@@ -10,6 +10,8 @@ import html from "../../assets/img/Skills/HTML.png";
 import javascript from "../../assets/img/Skills/JavaScript.png";
 import redux from "../../assets/img/Skills/Redux.png";
 import vscode from "../../assets/img/Skills/vscode.png";
+import sass from "../../assets/img/Skills/svg/Sass.svg";
+import ts from "../../assets/img/Skills/svg/TS.svg";
 
 const Skills = () => {
   return (
@@ -61,6 +63,16 @@ const Skills = () => {
           <div className="skill">
             <img src={javascript} className="skill__image" alt="javascript" />
             <h3 className="skill__h3">Javascript</h3>
+          </div>
+
+          <div className="skill">
+            <img src={ts} className="skill__image" alt="ts" />
+            <h3 className="skill__h3">Typescript</h3>
+          </div>
+
+          <div className="skill">
+            <img src={sass} className="skill__image" alt="javascript" />
+            <h3 className="skill__h3">Sass</h3>
           </div>
 
           <div className="skill">
