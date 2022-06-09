@@ -1,15 +1,3 @@
-@media (max-width: 800px) {
-  .hero {
-    background-attachment: scroll;
-  }
-
-}
-
-@media(max-width:1600px) {
-  .hero__header {
-    width: 90%;
-  }
-}
 
 
 @media(max-width:1600px) {
@@ -42,18 +30,19 @@
 }
 
 .hero {
-  width: 100vw;
-  max-width: 100%;
-  height: 100vh;
+  width: auto;
+  flex-direction: column;
+  position: relative;
   background: linear-gradient(0deg, rgba(0, 0, 0, .7), rgba(19, 19, 19, .7) 75%, rgba(33, 33, 33, .7)), url(./img/background1.png);
-  background-position: 50%;
-  background-size: 100%;
+  background-position: 100%;
+  background-size:cover;
   overflow: hidden;
+  background-repeat: no-repeat;
 }
 
 .hero__header {
   margin: 40vh auto;
-  width: 70%;
+  width: 100%;
   color: #fff;
   text-align: center;
 }
