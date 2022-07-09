@@ -5,6 +5,8 @@ import piedpiper from "../../assets/img/Portfolio/piedpiper.png";
 import menu from "../../assets/img/Portfolio/menu.png";
 import mars from "../../assets/img/Portfolio/mars.png";
 import addUser from "../../assets/img/Portfolio/addUser.png";
+import todo from "../../assets/img/Portfolio/TodoOnTS.png";
+import unipage from "../../assets/img/Portfolio/unipagetest.png";
 
 const Portfolio = () => {
   return (
@@ -90,6 +92,29 @@ const Portfolio = () => {
         </div>
 
         <div className="project">
+          <img className="project__image" src={todo} alt="Todo" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">Todo</h1>
+            <p className="project__description">TS app for creat list to do</p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/practicets"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
+              <form
+                action="https://kybikchidori1.github.io/practicets/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
           <img className="project__image" src={addUser} alt="addUser" />
           <div className="project__container">
             <h2 className="project__tags">coded</h2>
@@ -106,6 +131,31 @@ const Portfolio = () => {
               </form>
               <form
                 action="https://kybikchidori1.github.io/mytest/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <img className="project__image" src={unipage} alt="unipage" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">UniPage Test App</h1>
+            <p className="project__description">
+              React app that sorted courses
+            </p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/skilla"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
+              <form
+                action="https://kybikchidori1.github.io/skilla/"
                 target="_blank"
               >
                 <button className="sc-button salut">DEMO</button>
