@@ -7,6 +7,7 @@ import mars from "../../assets/img/Portfolio/mars.png";
 import addUser from "../../assets/img/Portfolio/addUser.png";
 import todo from "../../assets/img/Portfolio/TodoOnTS.png";
 import unipage from "../../assets/img/Portfolio/unipagetest.png";
+import buylist from "../../assets/img/Portfolio/buylist.png";
 
 const Portfolio = () => {
   return (
@@ -131,6 +132,31 @@ const Portfolio = () => {
               </form>
               <form
                 action="https://kybikchidori1.github.io/mytest/"
+                target="_blank"
+              >
+                <button className="sc-button salut">DEMO</button>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <div className="project">
+          <img className="project__image" src={buylist} alt="BuyList" />
+          <div className="project__container">
+            <h2 className="project__tags">coded</h2>
+            <h1 className="project__title">BuyList App</h1>
+            <p className="project__description">
+              JS app that add new product, edit and delete
+            </p>
+            <div className="project__buttons">
+              <form
+                action="https://github.com/kybikchidori1/shopping-list"
+                target="_blank"
+              >
+                <button className="sc-button salut">GITHUB</button>
+              </form>
+              <form
+                action="https://kybikchidori1.github.io/shopping-list/"
                 target="_blank"
               >
                 <button className="sc-button salut">DEMO</button>
